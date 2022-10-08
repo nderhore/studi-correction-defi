@@ -12,6 +12,9 @@ def encode_or_decode_text(text: str, key: [], alphalist: [], operation: str):
     index_key: int = 0
 
     for i, value in enumerate(text):
+        # text = azerty
+        # i = 0
+        # value = a
 
         for j, val in enumerate(alphalist):
             if value == val:
